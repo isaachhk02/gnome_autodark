@@ -1,0 +1,10 @@
+[Unit]
+Description=GNOME Auto Dark Check Service
+
+[Timer]
+OnUnitActiveSec=1m
+AccuracySec=10s
+Unit=gnome-autodark.service
+
+[Install]
+WantedBy=default.target
